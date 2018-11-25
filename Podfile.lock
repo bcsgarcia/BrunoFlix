@@ -1,0 +1,36 @@
+PODS:
+  - Cartography (3.1.0)
+  - iOSSnapshotTestCase (4.0.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 4.0.0)
+  - iOSSnapshotTestCase/Core (4.0.0)
+  - iOSSnapshotTestCase/SwiftSupport (4.0.0):
+    - iOSSnapshotTestCase/Core
+  - Nimble (7.3.1)
+  - SwiftGen (6.0.2)
+  - SwiftLint (0.27.0)
+
+DEPENDENCIES:
+  - Cartography
+  - iOSSnapshotTestCase
+  - Nimble
+  - SwiftGen
+  - SwiftLint (~> 0.27)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Cartography
+    - iOSSnapshotTestCase
+    - Nimble
+    - SwiftGen
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Cartography: 1988b7578871a56c036e7af17195cb2190edf18c
+  iOSSnapshotTestCase: 711379b19f69a22c131527df862352c877c2773c
+  Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
+  SwiftGen: e5b047067aa84082826a0c4f1c4c2ddc95bcf74c
+  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
+
+PODFILE CHECKSUM: 9d2a0f02fcd0352dbfd75070ce34e110a69b237a
+
+COCOAPODS: 1.6.0.beta.2

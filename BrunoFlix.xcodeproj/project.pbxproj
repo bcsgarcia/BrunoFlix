@@ -7,41 +7,209 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		076C6AD5C41B6B4AB0B5E4A7 /* Pods_BrunoFlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57A8633322BC49D169A25B6 /* Pods_BrunoFlixTests.framework */; };
+		9217709E21AA4D4F00143016 /* TableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9217709D21AA4D4F00143016 /* TableViewHelper.swift */; };
+		921770A721AAE49000143016 /* BrunoFlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921770A621AAE49000143016 /* BrunoFlixTests.swift */; };
+		921770BB21AAE69100143016 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 921770B821AAE69100143016 /* Localizable.strings */; };
+		921770C121AAE7DA00143016 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921770C021AAE7DA00143016 /* Strings.swift */; };
+		926CCC052192647300328330 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CCC042192647300328330 /* CustomImageView.swift */; };
+		926CCC072193080900328330 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CCC062193080900328330 /* Extensions.swift */; };
+		926CCC0B219363F100328330 /* MovieEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CCC0A219363F100328330 /* MovieEditViewController.swift */; };
+		929552AA219F835C00357A1F /* UIViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929552A9219F835C00357A1F /* UIViewController+CoreData.swift */; };
+		929552AD219F949000357A1F /* Date+Formatted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929552AC219F949000357A1F /* Date+Formatted.swift */; };
+		929552B2219F9AB300357A1F /* GenreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929552B1219F9AB300357A1F /* GenreTableViewController.swift */; };
+		929552D621A7836D00357A1F /* MovieItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929552D521A7836D00357A1F /* MovieItemTableViewCell.swift */; };
+		92A5FF7221AA16E300AC76F4 /* Rest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A5FF7121AA16E300AC76F4 /* Rest.swift */; };
+		92A5FF7521AA187800AC76F4 /* ApiItunes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A5FF7421AA187800AC76F4 /* ApiItunes.swift */; };
+		92A5FF7821AA202900AC76F4 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A5FF7721AA202900AC76F4 /* VideoView.swift */; };
+		92BB92D721A9B7BF00CC3439 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB92D621A9B7BF00CC3439 /* Enums.swift */; };
+		92BB92D921A9CB1A00CC3439 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB92D821A9CB1A00CC3439 /* SettingsViewController.swift */; };
+		92BB92DB21A9CF4B00CC3439 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92BB92DA21A9CF4B00CC3439 /* Settings.bundle */; };
 		92FE8CFE2190ECE4006F1794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FE8CFD2190ECE4006F1794 /* AppDelegate.swift */; };
-		92FE8D002190ECE4006F1794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FE8CFF2190ECE4006F1794 /* ViewController.swift */; };
 		92FE8D032190ECE4006F1794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FE8D012190ECE4006F1794 /* Main.storyboard */; };
 		92FE8D062190ECE4006F1794 /* BrunoFlix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92FE8D042190ECE4006F1794 /* BrunoFlix.xcdatamodeld */; };
 		92FE8D082190ECE6006F1794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FE8D072190ECE6006F1794 /* Assets.xcassets */; };
 		92FE8D0B2190ECE6006F1794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FE8D092190ECE6006F1794 /* LaunchScreen.storyboard */; };
+		92FE8D1321910547006F1794 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FE8D1221910547006F1794 /* MoviesTableViewController.swift */; };
+		92FE8D1521910942006F1794 /* Movie+ReleaseDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FE8D1421910942006F1794 /* Movie+ReleaseDate.swift */; };
+		B2DCA94F0C6F097206899D9A /* Pods_BrunoFlix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FE97B52CB5C3E9AFC4FB49 /* Pods_BrunoFlix.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		921770A921AAE49000143016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FE8CF22190ECE4006F1794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FE8CF92190ECE4006F1794;
+			remoteInfo = BrunoFlix;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4F21FBB2CDE8EC9F81F67D75 /* Pods-BrunoFlixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrunoFlixTests.release.xcconfig"; path = "Target Support Files/Pods-BrunoFlixTests/Pods-BrunoFlixTests.release.xcconfig"; sourceTree = "<group>"; };
+		58DAC42FD589CB3AC9E1AB4A /* Pods-BrunoFlixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrunoFlixTests.debug.xcconfig"; path = "Target Support Files/Pods-BrunoFlixTests/Pods-BrunoFlixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9217709D21AA4D4F00143016 /* TableViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHelper.swift; sourceTree = "<group>"; };
+		921770A421AAE49000143016 /* BrunoFlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrunoFlixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		921770A621AAE49000143016 /* BrunoFlixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrunoFlixTests.swift; sourceTree = "<group>"; };
+		921770A821AAE49000143016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921770B921AAE69100143016 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		921770BA21AAE69100143016 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		921770C021AAE7DA00143016 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		926CCC042192647300328330 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		926CCC062193080900328330 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		926CCC0A219363F100328330 /* MovieEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEditViewController.swift; sourceTree = "<group>"; };
+		929552A9219F835C00357A1F /* UIViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+CoreData.swift"; sourceTree = "<group>"; };
+		929552AC219F949000357A1F /* Date+Formatted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatted.swift"; sourceTree = "<group>"; };
+		929552B1219F9AB300357A1F /* GenreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreTableViewController.swift; sourceTree = "<group>"; };
+		929552D521A7836D00357A1F /* MovieItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieItemTableViewCell.swift; sourceTree = "<group>"; };
+		92A5FF7121AA16E300AC76F4 /* Rest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rest.swift; sourceTree = "<group>"; };
+		92A5FF7421AA187800AC76F4 /* ApiItunes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiItunes.swift; sourceTree = "<group>"; };
+		92A5FF7721AA202900AC76F4 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		92BB92D621A9B7BF00CC3439 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		92BB92D821A9CB1A00CC3439 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		92BB92DA21A9CF4B00CC3439 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		92FE8CFA2190ECE4006F1794 /* BrunoFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrunoFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FE8CFD2190ECE4006F1794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92FE8CFF2190ECE4006F1794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92FE8D022190ECE4006F1794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92FE8D052190ECE4006F1794 /* BrunoFlix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrunoFlix.xcdatamodel; sourceTree = "<group>"; };
 		92FE8D072190ECE6006F1794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92FE8D0A2190ECE6006F1794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92FE8D0C2190ECE6006F1794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FE8D1221910547006F1794 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		92FE8D1421910942006F1794 /* Movie+ReleaseDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+ReleaseDate.swift"; sourceTree = "<group>"; };
+		BA3FA0F2342D594C0262B9A2 /* Pods-BrunoFlix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrunoFlix.release.xcconfig"; path = "Target Support Files/Pods-BrunoFlix/Pods-BrunoFlix.release.xcconfig"; sourceTree = "<group>"; };
+		CBA713C7795751BCF6F50D74 /* Pods-BrunoFlix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrunoFlix.debug.xcconfig"; path = "Target Support Files/Pods-BrunoFlix/Pods-BrunoFlix.debug.xcconfig"; sourceTree = "<group>"; };
+		E9FE97B52CB5C3E9AFC4FB49 /* Pods_BrunoFlix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrunoFlix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57A8633322BC49D169A25B6 /* Pods_BrunoFlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrunoFlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		921770A121AAE49000143016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076C6AD5C41B6B4AB0B5E4A7 /* Pods_BrunoFlixTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		92FE8CF72190ECE4006F1794 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2DCA94F0C6F097206899D9A /* Pods_BrunoFlix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		921770A521AAE49000143016 /* BrunoFlixTests */ = {
+			isa = PBXGroup;
+			children = (
+				921770A621AAE49000143016 /* BrunoFlixTests.swift */,
+				921770A821AAE49000143016 /* Info.plist */,
+			);
+			path = BrunoFlixTests;
+			sourceTree = "<group>";
+		};
+		921770AE21AAE57F00143016 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				921770B821AAE69100143016 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		921770BE21AAE7B800143016 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				921770BF21AAE7C700143016 /* Generated */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		921770BF21AAE7C700143016 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				921770C021AAE7DA00143016 /* Strings.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		929552AB219F947D00357A1F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				926CCC062193080900328330 /* Extensions.swift */,
+				929552A9219F835C00357A1F /* UIViewController+CoreData.swift */,
+				929552AC219F949000357A1F /* Date+Formatted.swift */,
+				92FE8D1421910942006F1794 /* Movie+ReleaseDate.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		929552AE219F962500357A1F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				929552D521A7836D00357A1F /* MovieItemTableViewCell.swift */,
+				92FE8D1221910547006F1794 /* MoviesTableViewController.swift */,
+				926CCC0A219363F100328330 /* MovieEditViewController.swift */,
+				929552B1219F9AB300357A1F /* GenreTableViewController.swift */,
+				92BB92D821A9CB1A00CC3439 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		929552AF219F964700357A1F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				926CCC042192647300328330 /* CustomImageView.swift */,
+				92BB92D621A9B7BF00CC3439 /* Enums.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		929552B0219F966A00357A1F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				92FE8D012190ECE4006F1794 /* Main.storyboard */,
+				92FE8D092190ECE6006F1794 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		92A5FF7021AA16CF00AC76F4 /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				92A5FF7121AA16E300AC76F4 /* Rest.swift */,
+			);
+			path = HttpRequest;
+			sourceTree = "<group>";
+		};
+		92A5FF7321AA186C00AC76F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92A5FF7421AA187800AC76F4 /* ApiItunes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92A5FF7621AA201900AC76F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92A5FF7721AA202900AC76F4 /* VideoView.swift */,
+				9217709D21AA4D4F00143016 /* TableViewHelper.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		92FE8CF12190ECE4006F1794 = {
 			isa = PBXGroup;
 			children = (
 				92FE8CFC2190ECE4006F1794 /* BrunoFlix */,
+				921770A521AAE49000143016 /* BrunoFlixTests */,
 				92FE8CFB2190ECE4006F1794 /* Products */,
+				B3F14D2E083F94AE1AF4C1C3 /* Pods */,
+				F119DFD5E148B79002E24B57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				92FE8CFA2190ECE4006F1794 /* BrunoFlix.app */,
+				921770A421AAE49000143016 /* BrunoFlixTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,27 +225,77 @@
 		92FE8CFC2190ECE4006F1794 /* BrunoFlix */ = {
 			isa = PBXGroup;
 			children = (
-				92FE8CFD2190ECE4006F1794 /* AppDelegate.swift */,
-				92FE8CFF2190ECE4006F1794 /* ViewController.swift */,
-				92FE8D012190ECE4006F1794 /* Main.storyboard */,
-				92FE8D072190ECE6006F1794 /* Assets.xcassets */,
-				92FE8D092190ECE6006F1794 /* LaunchScreen.storyboard */,
+				921770BE21AAE7B800143016 /* Common */,
+				921770AE21AAE57F00143016 /* Resources */,
+				92A5FF7621AA201900AC76F4 /* Views */,
+				92A5FF7321AA186C00AC76F4 /* Models */,
+				92A5FF7021AA16CF00AC76F4 /* HttpRequest */,
 				92FE8D0C2190ECE6006F1794 /* Info.plist */,
+				92FE8CFD2190ECE4006F1794 /* AppDelegate.swift */,
+				92FE8D072190ECE6006F1794 /* Assets.xcassets */,
 				92FE8D042190ECE4006F1794 /* BrunoFlix.xcdatamodeld */,
+				929552AE219F962500357A1F /* Controllers */,
+				929552AB219F947D00357A1F /* Extensions */,
+				929552B0219F966A00357A1F /* Storyboards */,
+				929552AF219F964700357A1F /* Util */,
+				92BB92DA21A9CF4B00CC3439 /* Settings.bundle */,
 			);
 			path = BrunoFlix;
+			sourceTree = "<group>";
+		};
+		B3F14D2E083F94AE1AF4C1C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBA713C7795751BCF6F50D74 /* Pods-BrunoFlix.debug.xcconfig */,
+				BA3FA0F2342D594C0262B9A2 /* Pods-BrunoFlix.release.xcconfig */,
+				58DAC42FD589CB3AC9E1AB4A /* Pods-BrunoFlixTests.debug.xcconfig */,
+				4F21FBB2CDE8EC9F81F67D75 /* Pods-BrunoFlixTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F119DFD5E148B79002E24B57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9FE97B52CB5C3E9AFC4FB49 /* Pods_BrunoFlix.framework */,
+				F57A8633322BC49D169A25B6 /* Pods_BrunoFlixTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		921770A321AAE49000143016 /* BrunoFlixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921770AB21AAE49100143016 /* Build configuration list for PBXNativeTarget "BrunoFlixTests" */;
+			buildPhases = (
+				04643E61AC0CC8AC0419E22E /* [CP] Check Pods Manifest.lock */,
+				921770A021AAE49000143016 /* Sources */,
+				921770A121AAE49000143016 /* Frameworks */,
+				921770A221AAE49000143016 /* Resources */,
+				10F0BCF9B49C42F0BF3BAF60 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				921770AA21AAE49000143016 /* PBXTargetDependency */,
+			);
+			name = BrunoFlixTests;
+			productName = BrunoFlixTests;
+			productReference = 921770A421AAE49000143016 /* BrunoFlixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		92FE8CF92190ECE4006F1794 /* BrunoFlix */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92FE8D0F2190ECE6006F1794 /* Build configuration list for PBXNativeTarget "BrunoFlix" */;
 			buildPhases = (
+				80131C4E9755637614FD9B4F /* [CP] Check Pods Manifest.lock */,
 				92FE8CF62190ECE4006F1794 /* Sources */,
 				92FE8CF72190ECE4006F1794 /* Frameworks */,
 				92FE8CF82190ECE4006F1794 /* Resources */,
+				C716EC010BF4EE96B54279BB /* [CP] Embed Pods Frameworks */,
+				921770BD21AAE77A00143016 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -97,6 +316,10 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Bruno Garcia";
 				TargetAttributes = {
+					921770A321AAE49000143016 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 92FE8CF92190ECE4006F1794;
+					};
 					92FE8CF92190ECE4006F1794 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -109,6 +332,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 92FE8CF12190ECE4006F1794;
 			productRefGroup = 92FE8CFB2190ECE4006F1794 /* Products */;
@@ -116,15 +340,25 @@
 			projectRoot = "";
 			targets = (
 				92FE8CF92190ECE4006F1794 /* BrunoFlix */,
+				921770A321AAE49000143016 /* BrunoFlixTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		921770A221AAE49000143016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		92FE8CF82190ECE4006F1794 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				921770BB21AAE69100143016 /* Localizable.strings in Resources */,
+				92BB92DB21A9CF4B00CC3439 /* Settings.bundle in Resources */,
 				92FE8D0B2190ECE6006F1794 /* LaunchScreen.storyboard in Resources */,
 				92FE8D082190ECE6006F1794 /* Assets.xcassets in Resources */,
 				92FE8D032190ECE4006F1794 /* Main.storyboard in Resources */,
@@ -133,20 +367,170 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04643E61AC0CC8AC0419E22E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrunoFlixTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10F0BCF9B49C42F0BF3BAF60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrunoFlixTests/Pods-BrunoFlixTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrunoFlixTests/Pods-BrunoFlixTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80131C4E9755637614FD9B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrunoFlix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		921770BD21AAE77A00143016 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PODS_ROOT/SwiftGen/bin/swiftgen strings --output $SRCROOT/BrunoFlix/Common/Generated/Strings.swift $SRCROOT/BrunoFlix/Resources/en.lproj/Localizable.strings --param enumName=Localization -t flat-swift4\n";
+		};
+		C716EC010BF4EE96B54279BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrunoFlix/Pods-BrunoFlix-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrunoFlix/Pods-BrunoFlix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		921770A021AAE49000143016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921770A721AAE49000143016 /* BrunoFlixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		92FE8CF62190ECE4006F1794 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92FE8D002190ECE4006F1794 /* ViewController.swift in Sources */,
+				92FE8D1321910547006F1794 /* MoviesTableViewController.swift in Sources */,
+				926CCC072193080900328330 /* Extensions.swift in Sources */,
+				929552AD219F949000357A1F /* Date+Formatted.swift in Sources */,
+				92A5FF7221AA16E300AC76F4 /* Rest.swift in Sources */,
+				926CCC052192647300328330 /* CustomImageView.swift in Sources */,
+				929552B2219F9AB300357A1F /* GenreTableViewController.swift in Sources */,
+				929552D621A7836D00357A1F /* MovieItemTableViewCell.swift in Sources */,
 				92FE8D062190ECE4006F1794 /* BrunoFlix.xcdatamodeld in Sources */,
+				926CCC0B219363F100328330 /* MovieEditViewController.swift in Sources */,
+				92A5FF7521AA187800AC76F4 /* ApiItunes.swift in Sources */,
+				921770C121AAE7DA00143016 /* Strings.swift in Sources */,
+				9217709E21AA4D4F00143016 /* TableViewHelper.swift in Sources */,
+				929552AA219F835C00357A1F /* UIViewController+CoreData.swift in Sources */,
 				92FE8CFE2190ECE4006F1794 /* AppDelegate.swift in Sources */,
+				92A5FF7821AA202900AC76F4 /* VideoView.swift in Sources */,
+				92BB92D921A9CB1A00CC3439 /* SettingsViewController.swift in Sources */,
+				92BB92D721A9B7BF00CC3439 /* Enums.swift in Sources */,
+				92FE8D1521910942006F1794 /* Movie+ReleaseDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		921770AA21AAE49000143016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FE8CF92190ECE4006F1794 /* BrunoFlix */;
+			targetProxy = 921770A921AAE49000143016 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		921770B821AAE69100143016 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921770B921AAE69100143016 /* en */,
+				921770BA21AAE69100143016 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		92FE8D012190ECE4006F1794 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -166,6 +550,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		921770AC21AAE49100143016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58DAC42FD589CB3AC9E1AB4A /* Pods-BrunoFlixTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUQ3DJ6765;
+				INFOPLIST_FILE = BrunoFlixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunogarcia.Movile.BrunoFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrunoFlix.app/BrunoFlix";
+			};
+			name = Debug;
+		};
+		921770AD21AAE49100143016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F21FBB2CDE8EC9F81F67D75 /* Pods-BrunoFlixTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUQ3DJ6765;
+				INFOPLIST_FILE = BrunoFlixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunogarcia.Movile.BrunoFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrunoFlix.app/BrunoFlix";
+			};
+			name = Release;
+		};
 		92FE8D0D2190ECE6006F1794 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -284,6 +710,7 @@
 		};
 		92FE8D102190ECE6006F1794 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA713C7795751BCF6F50D74 /* Pods-BrunoFlix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +729,7 @@
 		};
 		92FE8D112190ECE6006F1794 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA3FA0F2342D594C0262B9A2 /* Pods-BrunoFlix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -321,6 +749,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		921770AB21AAE49100143016 /* Build configuration list for PBXNativeTarget "BrunoFlixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921770AC21AAE49100143016 /* Debug */,
+				921770AD21AAE49100143016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		92FE8CF52190ECE4006F1794 /* Build configuration list for PBXProject "BrunoFlix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

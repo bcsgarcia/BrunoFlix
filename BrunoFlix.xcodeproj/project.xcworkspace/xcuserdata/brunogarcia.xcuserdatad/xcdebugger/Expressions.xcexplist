@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MovieEditViewController.save(_:):MovieEditViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "movie.genres">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SettingsViewController.changeColor(_:):SettingsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sender.selectedSegmentIndex">
+            </PersistentString>
+            <PersistentString
+               value = "sender.titleForSegment(at: sender.selectedSegmentIndex)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MoviesTableViewController.viewWillAppear(_:):MoviesTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "SegmentedColors(3)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SettingsViewController.viewDidLoad():SettingsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "ud.string(forKey: UDKeys.autoPlay)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

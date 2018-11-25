@@ -1,0 +1,6 @@
+framework module Pods_BrunoFlix {
+  umbrella header "Pods-BrunoFlix-umbrella.h"
+
+  export *
+  module * { export * }
+}

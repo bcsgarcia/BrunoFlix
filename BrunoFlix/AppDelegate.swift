@@ -8,15 +8,30 @@
 
 import UIKit
 import CoreData
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    let center = UNUserNotificationCenter.current()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        center.delegate = self
+        center.getNotificationSettings { (settings) in }
+        
+        let confirmAction = UNNotificationAction(identifier: "confirm", title: "OK, irei assistir 👍🏽", options: [.foreground])
+        let cancelAction = UNNotificationAction(identifier: "cancel", title: "Cancelar ❌", options: [])
+        let category = UNNotificationCategory(identifier: "lembrete", actions: [confirmAction, cancelAction], intentIdentifiers: [], hiddenPreviewsBodyPlaceholder: "", categorySummaryFormat: "", options: [.allowInCarPlay, .customDismissAction])
+        center.setNotificationCategories([category])
+        center.requestAuthorization(options: [.alert, .badge, .sound, .carPlay]) { (success, error) in
+            print(success)
+        }
+        
+        
+        
         return true
     }
 
@@ -89,5 +104,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 
+}
+
+extension AppDelegate: UNUserNotificationCenterDelegate {
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        
+        //let id = response.notification.request.identifier
+        //print(id)
+        
+        switch response.actionIdentifier {
+        case "confirm":
+            print("Tocou em Confirm")
+            break
+        case "cancel":
+            print("Tocou em Cancelar")
+            break
+        case UNNotificationDefaultActionIdentifier:
+            //quando o cara tocou na notificação
+            print("Tocou na notificação")
+            break
+        case UNNotificationDismissActionIdentifier:
+            break
+        default:
+            break
+        }
+        
+        completionHandler()
+        
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.alert, .badge, .sound])
+    }
+    
 }
 
